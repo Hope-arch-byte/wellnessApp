@@ -17,7 +17,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Health and Wellness"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:textColor="@color/white"
             android:textAlignment="center"
             android:layout_marginTop="30dp"
@@ -93,6 +93,27 @@
             android:text="Daily Motivation"
             android:textSize="20sp"
             android:id="@+id/motivation"
+            android:textColor="@color/white"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#5720B8"
+            android:text="Weekly Goals"
+            android:textSize="20sp"
+            android:id="@+id/goals"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="#5720B8"
+            android:text="Check Progress"
+            android:textSize="20sp"
+            android:id="@+id/progress"
             android:textColor="@color/white"
             />
 

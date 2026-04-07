@@ -13,18 +13,34 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nutritional Advice"
-        android:textSize="30sp"
+        android:textSize="40sp"
         android:textAlignment="center"
         android:layout_marginTop="30dp"
         android:textColor="@color/black"
         />
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="355dp"
         android:layout_height="wrap_content"
-        android:src="@drawable/image6"
-        android:scaleType="centerCrop"
         android:layout_margin="30dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/image6" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="General Nutrition advice"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A healthy diet should prioritize whole, minimally processed foods—specifically vegetables, fruits, legumes, nuts, and whole grains—while limiting added sugars, salt, and saturated fats. Aim for at least 400g of fruits/vegetables daily, stay hydrated with water, and maintain a balanced intake of protein, healthy fats, and fiber to support overall health."
+        android:textSize="20sp"
+        android:padding="20dp"
         />
 
 
